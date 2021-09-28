@@ -5,7 +5,9 @@
 div{
   display: block;
 }
-
+img:hover{
+  cursor: pointer;
+}
 option {
   font-weight: normal;
   display: block;
@@ -128,7 +130,7 @@ width: 100%;
 }
 #serch{
   background-color: rgb(241, 241, 241);
-  width: 60%;
+  width: 100%;
   height: 50px;
   border: transparent;
   position: relative;
@@ -168,13 +170,30 @@ ul {
   text-align: left;
   border: 0;
 }
+.navMenu a{
+    padding-top: 35px;
+    position: relative;
+    color: #404040 !important;
+    padding: .7em .875em 0;
+    color: #111 !important;
+    font-size: 14px;
+    display: block;
+    touch-action: manipulation;
+    background-color: transparent;
+      text-decoration: none;
+      transition: color .2s ease;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      /* margin-top: 2px; */
+}
 a{
-  padding-top: 35px;
+  /* padding-top: 35px;
   position: relative;
   color: #404040 !important;
-  padding: .7em .875em 0;
-  color: #111;
-  font-size: 14px;
+  padding: .7em .875em 0; */
+  color: #111 !important;
+  /* font-size: 14px;
   display: block;
   touch-action: manipulation;
   background-color: transparent;
@@ -182,9 +201,9 @@ a{
     transition: color .2s ease;
     cursor: pointer;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none; */
     /* margin-top: 2px; */
-}
+} 
 .iconWrap{
   position: absolute;
     top: 0;
@@ -232,12 +251,12 @@ a{
   z-index: 10;
   top: 0;
   box-sizing: border-box;
-  display: block;
+  /* display: block; */
   font-size: 16px;
   letter-spacing: 0px;
   color: #444;
   display: flex;
-  color: #222;
+  /* color: #222; */
   box-sizing: auto;
     margin-right: auto;
     margin-left: auto;
@@ -305,6 +324,9 @@ a{
   object-fit: cover;
   /* margin: auto; */
 }
+
+
+/* title above three cards */
 .title{
   text-align: center;
   margin-top: 2px;
@@ -316,6 +338,9 @@ a{
     margin: 0;
     line-height: 1;
 }
+/* title above three cards */
+
+/* three tiles */
 .tilesThree{
   padding: 8px !important;
 }
@@ -344,19 +369,45 @@ a{
   padding: 2px;
   opacity: 50%;
 }
-
-.imgBlocks{
-  width: 30%;
-  height: 40px;
-  background-color: gray;
-  padding: 15%;
-  float: left;
-  margin-left: 40px;
-  align-items: center;
-  overflow: hidden;
+/* three tiles */
+.cbtn{
+  display: none !important;
+  color: yellowgreen !important;
 }
-#linkText{
-  text-align: left;
-  float: left;
-
+.sub{
+  background-color: white;
+  /* margin-bottom: 0;
+    padding-left: 32px;
+    color: #777;
+    font-size: 14px; */
+    clear: both;
+    overflow: hidden;
+    padding-top: 2px; 
+    padding-bottom: 1.7px;
+    border-top: 1px solid rgb(218, 217, 217);
+    border-bottom: 1px solid rgb(218, 217, 217);
+    text-align: justify;
 }
+.row{
+  margin-top: 1% !important;
+}
+span{
+  color: rgb(160, 158, 158);
+}
+
+ .row{
+   display: grid;
+   grid-template-areas: (4, 25%);
+ }
+.banner{
+  padding-left: 8%;
+}
+/* footer */
+.footerCol{
+  background-color: #201d48;
+  color: #ccc;
+}
+.footerCol a{
+  color: #ccc !important;
+}
+/* footer */

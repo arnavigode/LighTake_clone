@@ -5,6 +5,7 @@ function movieslides() {
     let img = document.createElement('img')
 
     img.src = arr[0];
+    img.classList.add("img-fluid");
     div.append(img);
 
     let i = 0;
@@ -21,3 +22,5 @@ function movieslides() {
 
 }
 movieslides()
+
+$('.carousel').carousel()
