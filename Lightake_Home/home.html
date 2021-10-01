@@ -6,39 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Lightake Home</title>
 </head>
 <link rel="stylesheet" href="home.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- StyleSheet -->
-	
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.min.css">
-	<!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.css">
-	<!-- Fancybox -->
-	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
-	<!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-	<!-- Nice Select CSS -->
-    <link rel="stylesheet" href="css/niceselect.css">
-	<!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.css">
-	<!-- Flex Slider CSS -->
-    <link rel="stylesheet" href="css/flex-slider.min.css">
-	<!-- Owl Carousel -->
-    <link rel="stylesheet" href="css/owl-carousel.css">
-	<!-- Slicknav -->
-    <link rel="stylesheet" href="css/slicknav.min.css">
-	
-	<!-- Eshop StyleSheet -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
 <body>
     <!-- upper header Blue -->
-    <div class="container-fluid">
-
-        <div class="row">
+    <div class="container-fluid ">
+        <div class="upH">
+        <div class="row ">
             <div class="col-12 box topnav px-2">
 
                 <div class="text">
@@ -61,16 +41,6 @@
                             <option value="currency">
                             <img src="https://www.lightake.com/wp-content/plugins/currency-switcher-woocommerce-pro/assets/images/flag-icons/us.png">USD $
                         </option>
-                          <!-- <li>
-                            <a href="#" title="EUR"><img src="https://www.lightake.com/wp-content/plugins/currency-switcher-woocommerce-pro/assets/images/flag-icons/eu.png">EUR €</a>
-                          </li>
-                          <li>
-                            <a href="#" title="AUD"><img src="https://www.lightake.com/wp-content/plugins/currency-switcher-woocommerce-pro/assets/images/flag-icons/au.png">AUD $</a>
-                          </li>
-                          <li>
-                            <a href="#" title="CAD"><img src="https://www.lightake.com/wp-content/plugins/currency-switcher-woocommerce-pro/assets/images/flag-icons/ca.png">CAD $</a>
-                          </li> -->
-                        
                     </select>
                         </ul>
                     </form>
@@ -81,16 +51,17 @@
         </div>
         
     </div> 
+    </div>
     <!-- upper header Blue -->
 
 
     <!-- masterHeader -->
-    <div class="container-fluid">
+    <div class="container-fluid upH">
         <div class="row">
             <div class="col-12 box masthd">
                 <div class="masterHead">
                     <div class="logo">
-                        <img src="../images/logo.png" alt="">
+                        <a href="home.html"><img src="../images/logo.png" alt=""></a>
                     </div>
 
                     <div class="search">
@@ -103,7 +74,7 @@
                         <div class="navMenu">
                             <ul class="menu">
                                 <li class="list">
-                                    <a href="">
+                                    <a href="../Lightake_account/account.html">
                                         <img class="imgs" src="../images/account.svg" ></img>
                                         <p>My Account</p>
                                     </a>
@@ -143,21 +114,21 @@
                         <ul class="menu" id="siteMenu">
                             <li class="dropMenu">
                                 <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle btnDrop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn btn-secondary dropdown-toggle btnDrop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="navbar()">
                                       <b>CUBE CATALOGUE</b>
                                     </button>
                                   </div>
                             </li>
                             <li class="dropMenu">
                                 <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle btnDrop moc" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn btn-secondary dropdown-toggle btnDrop moc" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="navbar()">
                                         <b>MOC SETS</b>
                                     </button>
                                   </div>
                             </li>
                             <li class="dropMenu">
                                 <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle btnDrop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="btn btn-secondary dropdown-toggle btnDrop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="navbar()">
                                     <b>ARCHITECTURE SPECIAL</b>
                                     </button>
                                   </div>
@@ -250,14 +221,20 @@
         <!-- Images --> <!-- cards -->
 <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-4 t">
         <img src="https://i0.wp.com/www.lightake.com/wp-content/uploads/2021/07/b18e4c09-6106-42be-b497-32c137b3fe29.jpg?fit=400%2C400&ssl=1" class="img-fluid" />
+        <h3 class="tt">Text</h3>
+        <button type="button" class="btn btn-danger btnT">VIEW MORE</button>
       </div>
-      <div class="col-4">
+      <div class="col-4 t">
         <img src="https://i1.wp.com/www.lightake.com/wp-content/uploads/2021/08/f62d4ce1-507d-4966-98d2-4042d360c733.jpg?fit=400%2C400&ssl=1" class="img-fluid" />
+        <h3 class="tt">Text</h3>
+        <button type="button" class="btn btn-danger btnT ">VIEW MORE</button>
       </div>
-      <div class="col-4">
+      <div class="col-4 t">
         <img src="https://i2.wp.com/www.lightake.com/wp-content/uploads/2021/08/29b3cdcc-ab90-4740-bdce-0d69b33014b3.jpg?fit=400%2C400&ssl=1" class="img-fluid" />
+        <h3 class="tt">Text</h3>
+        <button type="button" class="btn btn-danger btnT">VIEW MORE</button>
       </div>
     </div>
     <br>
@@ -289,85 +266,85 @@
     <!-- display of items -->
     <div class="container-fluid">
         <div class="row">
-          <div class="col-sm py-3">
-            <div class="card" style="width: 20rem; border: none;">
-                <img src="https://i2.wp.com/www.lightake.com/wp-content/uploads/2021/09/e2c39f6f-3fbf-45ce-bf20-ad6ffde5be4f.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
+          <div class="col-sm py-3 box">
+            <div id="items" class="card" style="width: 20rem; border: none;">
+                <img id="img" src="https://i2.wp.com/www.lightake.com/wp-content/uploads/2021/09/e2c39f6f-3fbf-45ce-bf20-ad6ffde5be4f.jpg?fit=335%2C335&ssl=1" class="card-img-top mb-3" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-muted text-center">MOC-87489 Orc Outpost</p>
-                  <h5 class="card-title mx-auto text-center">USD$193.99</h5>
-                  
+                  <p id="name" class="card-text text-muted text-center">MOC-87489 Orc Outpost</p>
+                  <h5 id="price" class="card-title mx-auto text-center">USD$193.99</h5>
+                  <button class="add" onclick="addtoCart()">Add to Cart</button>
                 </div>
               </div>
           </div>
-          <div class="col-sm py-3">
-            <div class="card " style="width: 20rem; border: none;">
-                <img src="https://i0.wp.com/www.lightake.com/wp-content/uploads/2021/09/8aec7672-84f6-4635-b4e8-036eeb0a2034.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
+          <div class="col-sm py-3 box ">
+            <div class="card" id="items" style="width: 20rem; border: none;">
+                <img id="img" src="https://i0.wp.com/www.lightake.com/wp-content/uploads/2021/09/8aec7672-84f6-4635-b4e8-036eeb0a2034.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-text text-muted text-center">Pay Nothing Unitil You Are Hired</h5>
-                  <h5 class="card-title mx-auto text-center">USD$193.99</h5>
-                  
+                  <h5 id="name"  class="card-text text-muted text-center">Pay Nothing Unitil You Are Hired</h5>
+                  <h5 id="price" class="card-title mx-auto text-center">USD$193.99</h5>
+                  <button class="add" onclick="addtoCart()">Add to Cart</button>
                 </div>
               </div>
           </div>
-          <div class="col-sm py-3">
-            <div class="card" style="width: 20rem; border: none;">
-                <img src="https://i1.wp.com/www.lightake.com/wp-content/uploads/2021/09/ccb1b373-bfd6-43d4-84b6-cd0e9b524cb4.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
+          <div class="box col-sm py-3">
+            <div class="card" id="items" style="width: 20rem; border: none;">
+                <img id="img" src="https://i1.wp.com/www.lightake.com/wp-content/uploads/2021/09/ccb1b373-bfd6-43d4-84b6-cd0e9b524cb4.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-text text-muted text-center">Holistic Development</h5>
-                  <h5 class="card-title mx-auto text-center">USD$193.99</h5>
-                  
+                  <h5 id="name"  class="card-text text-muted text-center">Holistic Development</h5>
+                  <h5 id="price" class="card-title mx-auto text-center">USD$193.99</h5>
+                  <button class="add" onclick="addtoCart()">Add to Cart</button>
                 </div>
               </div>
           </div>
-          <div class="col-sm py-3">
-            <div class="card" style="width: 20rem; border: none;">
-                <img src="https://i1.wp.com/www.lightake.com/wp-content/uploads/2021/09/a50d2331-4be4-4666-9e36-bc0e83be7b9b.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
+          <div class="box col-sm py-3">
+            <div class="card" id="items" style="width: 20rem; border: none;">
+                <img id="img" src="https://i1.wp.com/www.lightake.com/wp-content/uploads/2021/09/a50d2331-4be4-4666-9e36-bc0e83be7b9b.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5  class="card-text text-muted text-center">Build Industry Relevant Skills</h5>
-                  <h5 class="card-title mx-auto text-center">USD$193.99</h5>
-                  
+                  <h5 id="name"  class="card-text text-muted text-center">Build Industry Relevant Skills</h5>
+                  <h5 id="price" class="card-title mx-auto text-center">USD$193.99</h5>
+                  <button class="add" onclick="addtoCart()">Add to Cart</button>
                 </div>
               </div>
           </div>
         </div>
         <div class="row">
-            <div class="col-sm py-3">
-              <div class="card" style="width: 20rem; border: none;">
-                  <img src="https://i0.wp.com/www.lightake.com/wp-content/uploads/2021/09/9dc23746-aab1-464f-8baf-32eb51374b9c.png?fit=335%2C251&ssl=1" class="card-img-top" alt="...">
+            <div class="box col-sm py-3">
+              <div class="card" id="items" style="width: 20rem; border: none;">
+                  <img id="img" src="https://i0.wp.com/www.lightake.com/wp-content/uploads/2021/09/9dc23746-aab1-464f-8baf-32eb51374b9c.png?fit=335%2C251&ssl=1" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5  class="card-text text-muted text-center">Build Industry Relevant Skills</h5>
-                    <h5 class="card-title mx-auto text-center">USD$193.99</h5>
-                    
+                    <h5 id="name"  class="card-text text-muted text-center">Build Industry Relevant Skills</h5>
+                    <h5  id="price" class="card-title mx-auto text-center">USD$193.99</h5>
+                    <button class="add" onclick="addtoCart()">Add to Cart</button>
                   </div>
                 </div>
             </div>
-            <div class="col-sm py-3">
+            <div class="box col-sm py-3">
               <div class="card " style="width: 20rem; border: none;">
-                  <img src="https://i1.wp.com/www.lightake.com/wp-content/uploads/2021/09/330708ec-7434-4bdd-b356-bacf9c361240.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
+                  <img id="img" src="https://i1.wp.com/www.lightake.com/wp-content/uploads/2021/09/330708ec-7434-4bdd-b356-bacf9c361240.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-text text-muted text-center">Pay Nothing Unitil You Are Hired</h5>
-                    <h5 class="card-title mx-auto text-center">USD$193.99</h5>
-                    
+                    <h5 id="name"  class="card-text text-muted text-center">Pay Nothing Unitil You Are Hired</h5>
+                    <h5 id="price" class="card-title mx-auto text-center">USD$193.99</h5>
+                    <button class="add" onclick="addtoCart()">Add to Cart</button>
                   </div>
                 </div>
             </div>
-            <div class="col-sm py-3">
-              <div class="card" style="width: 20rem; border: none;">
-                  <img src="https://i0.wp.com/www.lightake.com/wp-content/uploads/2021/09/5af336f6-42d1-4f54-ba71-c3022c472da8.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
+            <div class="box col-sm py-3">
+              <div class="card" id="items" style="width: 20rem; border: none;">
+                  <img id="img" src="https://i0.wp.com/www.lightake.com/wp-content/uploads/2021/09/5af336f6-42d1-4f54-ba71-c3022c472da8.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-text text-muted text-center">Holistic Development</h5>
-                    <h5 class="card-title mx-auto text-center">USD$193.99</h5>
-                    
+                    <h5 id="name"  class="card-text text-muted text-center">Holistic Development</h5>
+                    <h5 id="price" class="card-title mx-auto text-center">USD$193.99</h5>
+                    <button class="add" onclick="addtoCart()">Add to Cart</button>
                   </div>
                 </div>
             </div>
-            <div class="col-sm py-3">
-              <div class="card" style="width: 20rem; border: none;">
-                  <img src="https://i2.wp.com/www.lightake.com/wp-content/uploads/2021/09/df36755f-cd1b-4fff-ba29-f04883c7b020.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
+            <div class="box col-sm py-3">
+              <div class="card" id="items" style="width: 20rem; border: none;">
+                  <img id="img" src="https://i2.wp.com/www.lightake.com/wp-content/uploads/2021/09/df36755f-cd1b-4fff-ba29-f04883c7b020.jpg?fit=335%2C335&ssl=1" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5  class="card-text text-muted text-center">Build Industry Relevant Skills</h5>
-                    <h5 class="card-title mx-auto text-center">USD$193.99</h5>
-                    
+                    <h5 id="name"  class="card-text text-muted text-center">Build Industry Relevant Skills</h5>
+                    <h5 id="price" class="card-title mx-auto text-center">USD$193.99</h5>
+                    <button class="add" onclick="addtoCart()">Add to Cart</button>
                   </div>
                 </div>
             </div>
@@ -391,7 +368,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 ">
-                <img class="img-fluid banner" src="../images/Lightake-Job-Opportunity.jpg" alt="">
+                <img class="img-fluid banner"  src="../images/Lightake-Job-Opportunity.jpg" alt="">
             </div>
         </div>
     </div>
